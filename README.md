@@ -30,7 +30,7 @@ The [`nasa.ts`](./src/mcps/nasa.ts)
 
 ## Architecture
 
-![Architecture Diagram](./docs/openapi-gateway-apikey.png)
+![Architecture Diagram](./openapi-gateway-apikey.png)
 
 
 ## Key Components
