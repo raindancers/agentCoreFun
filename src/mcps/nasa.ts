@@ -21,7 +21,7 @@ export class WeatherOnMars extends core.Stack {
       name: props.name,
       pathToOpenApiSpec: path.resolve(__dirname, '../../nasa/openApiSpec/nasaapi.json'),
       apiKey: {
-        secret: sm.Secret.fromSecretCompleteArn(this, 'NasaApiSecret', 'arn:aws:secretsmanager:ap-southeast-2:366197773329:secret:apiKeys-nASpHB'),
+        secret: sm.Secret.fromSecretCompleteArn(this, 'NasaApiSecret', 'arn:aws:secretsmanager:ap-southeast-2:3xxxxx9:secret:apiKeys-xxxx'),
         key: 'nasa',
       },
       gatewayDescription: 'Mars Weather API Gateway using NASA InSight data',
